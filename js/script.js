@@ -50,6 +50,14 @@ async function init() {
     .attr("transform", "rotate(-90)")
     .text("minimum wage");
 
+
+    svg.append('text')
+      .attr('class', 'source')
+      .attr('x',538)
+      .attr('y', 456)
+      .attr('text-anchor', 'start')
+      .text('Manjunath Aderu -W9551487')
+
          // svg.append('text')
          //    .attr('x', width - (width / 2) - 100)
          //    .attr('y', height + 20)
